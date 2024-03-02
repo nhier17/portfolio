@@ -3,9 +3,9 @@ import {motion} from "framer-motion"
 import { pageAnimation,titleAnim } from "../animations";
 import styled from "styled-components"
 import { IoCall } from "react-icons/io5";
-
 import { MdOutlineEmail } from "react-icons/md";
 import { FaLinkedin } from "react-icons/fa";
+import code from "../images/code.jpeg"
 
 const Contact = () => {
     return (
@@ -60,11 +60,15 @@ const ContactStyle = styled(motion.div)`
   padding: 5rem 10rem;
   min-height: 90vh;
   margin-top: 10rem;
-  h2 {
+    h2 {
     font-size: 3rem;
     margin-bottom: 4rem;
     color: black;
   }
+  background-image: url(${code})
+  background-size: cover;
+  background-repeat: no-repeat;
+
   @media (max-width:768px){
     padding: 2rem;
     font-size: 0.1rem;

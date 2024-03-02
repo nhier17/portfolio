@@ -5,8 +5,8 @@ import me from "../images/me.JPEG"
 import { motion } from "framer-motion"
 
 const AboutSection = () => {
-  
-  
+  const linkedinUrl = "https://www.linkedin.com/in/nhier"
+  const githubUrl ="https://github.com/nhier17"
   return (
     <div className="min-h-svh flex items-center justify-between py-20 px-40">
       <div className="flex-1 pr-20 z-2">
@@ -34,10 +34,10 @@ const AboutSection = () => {
         </motion.p>
         <div className="flex items-center text-5xl text-blue-500 gap-4 cursor-pointer">
           <FaInstagram/>
-          <FaLinkedin/>
-          <FaGithub/>
+          <a href={linkedinUrl}><FaLinkedin/></a>
+          <a href={githubUrl}><FaGithub/></a>
           </div>
-        <a className="inline-block p-4 lg:p-7 bg-blue-500 ring-2 ring-blue-500 rounded-xl mt-4 text-xl font-bold" href="">Download CV</a>
+        <a className="inline-block p-4 lg:p-7 bg-blue-500 ring-2 ring-blue-500 rounded-xl mt-4 text-xl font-bold" href={githubUrl}>Download CV</a>
       </div>
       <div>
         <motion.img 
