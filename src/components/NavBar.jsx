@@ -1,6 +1,7 @@
 import React from "react";
 import { FcMenu } from "react-icons/fc";
 import { Link,useLocation } from "react-router-dom"
+import { motion } from "framer-motion"
 
 
 const NavBar = () => {
@@ -10,29 +11,41 @@ const NavBar = () => {
       <h1 className="text-4xl cursor-pointer">Portfolio</h1>
       <FcMenu className="text-5xl text-white hidden"/>
         <ul className="flex list-none">
-           <NavItem to="/" currentPath={pathname}>
-            About
-           </NavItem>
-           <NavItem to="/projects" currentPath={pathname}>
-            Projects
-           </NavItem>
-           <NavItem to="/contacts" currentPath={pathname}>
-            Contacts
-           </NavItem>
+        <li className="relative px-10">   
+        <Link to="/" className="text-white text-3xl">
+        About  
+        <motion.div className="h-0.5 bg-blue-500 w-0 absolute bottom-[-80%] left-60 lg:left-0 transition-all duration-750"
+         transition={{ duration: 0.75 }}
+         initial={{ width: "0%" }}
+         animate={{ width: pathname === "/" ? "50%" : "0%" }}
+        ></motion.div>
+        </Link>   
+        </li>
+        <li className="relative px-10">   
+        <Link to="/projects" className="text-white text-3xl">
+        Projects  
+        <motion.div className="h-0.5 bg-blue-500 w-0 absolute bottom-[-80%] left-60 lg:left-0 transition-all duration-750"
+         transition={{ duration: 0.75 }}
+         initial={{ width: "0%" }}
+         animate={{ width: pathname === "/projects" ? "50%" : "0%" }}
+        ></motion.div>
+        </Link>   
+        </li>
+        <li className="relative px-10">   
+        <Link to="/contacts" className="text-white text-3xl">
+        Contacts 
+        <motion.div className="h-0.5 bg-blue-500 w-0 absolute bottom-[-80%] left-60 lg:left-0 transition-all duration-750"
+         transition={{ duration: 0.75 }}
+         initial={{ width: "0%" }}
+         animate={{ width: pathname === "/contacts" ? "50%" : "0%" }}
+        ></motion.div>
+        </Link>   
+        </li>  
         </ul>
        
     </nav>
   );
 };
-const NavItem = ({ to, currentPath, children}) => (
-    <li className="relative px-10">
-      <Link className="text-white text-3xl" t0={to}>
-      {children}
-      </Link>  
-      <div className={`${currentPath === to ? "w-1/2": "w-0"} h-0.3rem bg-gray-500 absolute bottom-0 left-60 sm:left-0 transition-all duration-750`}>
 
-      </div>
-    </li>
-)
 
 export default NavBar;

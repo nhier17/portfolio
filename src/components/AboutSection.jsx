@@ -1,5 +1,5 @@
 import React from 'react'
-import { FaLinkedin } from "react-icons/fa";
+import { FaLinkedin,FaGithub } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa6";
 import me from "../images/me.JPEG"
 import { motion } from "framer-motion"
@@ -32,11 +32,11 @@ const AboutSection = () => {
            I am open to learning and staying updated on the latest industry trends which will allow me to incorporate cutting edge solutions into my work.
             Looking forward to contribute to innovative projects and collaborate with like-minded individuals.
         </motion.p>
-        <div className="flex items-center text-5xl text-blue-500 gap-4">
+        <div className="flex items-center text-5xl text-blue-500 gap-4 cursor-pointer">
           <FaInstagram/>
           <FaLinkedin/>
-          <motion.button  className="bg-blue-500 text-white text-xl py-2 px-4 rounded-full mt-4 hover:bg-blue-700">Contact Me</motion.button>
-        </div>
+          <FaGithub/>
+          </div>
         <a className="inline-block p-4 lg:p-7 bg-blue-500 ring-2 ring-blue-500 rounded-xl mt-4 text-xl font-bold" href="">Download CV</a>
       </div>
       <div>
