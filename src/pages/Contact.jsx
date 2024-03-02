@@ -16,7 +16,7 @@ initial="hidden"
 animate="show"
 style={{background: "white"}}
 >
-<motion.h2 variants={titleAnim}>Get in touch</motion.h2>  
+<motion.h2 variants={titleAnim}>Get in touch</motion.h2> 
   <motion.div>
       <Social variants={titleAnim}>
         <Container>
