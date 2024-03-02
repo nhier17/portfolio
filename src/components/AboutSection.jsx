@@ -1,23 +1,50 @@
 import React from 'react'
+import { FaLinkedin } from "react-icons/fa";
+import { FaInstagram } from "react-icons/fa6";
+import me from "../images/me.JPEG"
+import { motion } from "framer-motion"
 
 const AboutSection = () => {
   
   
   return (
-    <div>
-       <div>
-       <div>
-        <p>
-        I am a highly motivated software developer driven by a fervent passion for coding and problem-solving. 
-        Proficiently designed, developed , tested , and deployed user-friendly projects utilizing cutting-edge technologies such as Javascript, React.js, Next.js, HTML, and CSS. 
-        I possess expertise in creating and developing restful APIs with Node.js. 
-        Committed to continuous improvement, actively learning and staying current with the latest trends in software development. 
-        Eager to utilize my skills and knowledge to spearhead innovation and collaborate on groundbreaking projects alongside fellow professionals. 
-Distinguished as a forward-thinking innovator and solution finder, I successfully engineered an application that seamlessly integrates my passion for Health, Fitness, and wellness with cutting-edge technological tools and techniques.   
-        </p>
-        </div> 
-        </div> 
-    </div>
+    <div className="min-h-svh flex items-center justify-between py-20 px-40">
+      <div className="flex-1 pr-20 z-2">
+        <motion.div>
+          <div>
+            <motion.h2 className="text-3xl lg:text-4xl xl:text-5xl font-bold">Hello, It's me</motion.h2>
+            <h1 className="text-4xl lg:text-5xl xl:text-6xl font-bold">Abraham</h1>
+          </div>
+          <div>
+            <motion.h2 className="text-3xl lg:text-4xl xl:text-5xl font-bold">
+              And  I am a <span className="text-blue-500">Software</span>
+            </motion.h2>
+          </div>
+          <div className="text-3xl lg:text-4xl xl:text-5xl font-bold">
+            <motion.h2>Developer.</motion.h2>
+          </div>
+        </motion.div>
+        <motion.p  className="text-sm py-20 md:text-base lg:text-lg xl:text-xl max-w-xl">
+        I am a software developer passionate about coding and problem solving with a solid foundation in both front-end and back-end technologies. 
+        So far I've developed responsive and intuitive user interfaces using technologies and libraries like Javascript, ReactJs, HTML and CSS.
+         I have designed and developed restful APIs with Node.js and integrating them with diverse databases like MongoDB.
+          My experience with version control systems i.e Git ensures smooth collaboration and effective code management.
+           I am open to learning and staying updated on the latest industry trends which will allow me to incorporate cutting edge solutions into my work.
+            Looking forward to contribute to innovative projects and collaborate with like-minded individuals.
+        </motion.p>
+        <div className="flex items-center text-5xl text-blue-500 gap-4">
+          <FaInstagram/>
+          <FaLinkedin/>
+          <motion.button  className="bg-blue-500 text-white text-xl py-2 px-4 rounded-full mt-4 hover:bg-blue-700">Contact Me</motion.button>
+        </div>
+        <a className="inline-block p-4 lg:p-7 bg-blue-500 ring-2 ring-blue-500 rounded-xl mt-4 text-xl font-bold" href="">Download CV</a>
+      </div>
+      <div>
+        <motion.img 
+        className="w-full md:w-96 lg:w-80 xl:w-96 mx-auto"
+        width="300"  src={me} alt="profile" />
+      </div>
+       </div>
   )
 }
 
