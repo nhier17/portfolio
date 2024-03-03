@@ -5,47 +5,38 @@ import { motion } from "framer-motion"
 
 
 const NavBar = () => {
-    const { pathname } = useLocation();
+
   return (
-    <nav className="fixed top-0 left-0 flex justify-between items-center z-10 p-4 sm:p-16 bg-gray-800 w-full">
+    <nav className="fixed min-h-[10vh] top-0 left-0 flex justify-between items-center z-[100] p-4 sm:p-16 bg-gray-800 w-full">
       <h1 className="text-4xl cursor-pointer">Portfolio</h1>
       <FcMenu className="text-5xl text-white hidden"/>
         <ul className="flex list-none">
-        <li className="relative px-10">   
-        <Link to="/" className="text-white text-3xl">
-        About  
-        <motion.div className="h-0.5 bg-[#0ef] w-0 absolute bottom-[-80%] left-60 lg:left-0 transition-all duration-750"
-         transition={{ duration: 0.75 }}
-         initial={{ width: "0%" }}
-         animate={{ width: pathname === "/" ? "50%" : "0%" }}
-        ></motion.div>
-        </Link>   
-        </li>
-        <li className="relative px-10">   
-        <Link to="/projects" className="text-white text-3xl">
-        Projects  
-        <motion.div className="h-0.5 bg-[#0ef] w-0 absolute bottom-[-80%] left-60 lg:left-0 transition-all duration-750"
-         transition={{ duration: 0.75 }}
-         initial={{ width: "0%" }}
-         animate={{ width: pathname === "/projects" ? "50%" : "0%" }}
-        ></motion.div>
-        </Link>   
-        </li>
-        <li className="relative px-10">   
-        <Link to="/contacts" className="text-white text-3xl">
-        Contacts 
-        <motion.div className="h-0.5 bg-[#0ef] w-0 absolute bottom-[-80%] left-60 lg:left-0 transition-all duration-750"
-         transition={{ duration: 0.75 }}
-         initial={{ width: "0%" }}
-         animate={{ width: pathname === "/contacts" ? "50%" : "0%" }}
-        ></motion.div>
-        </Link>   
-        </li>  
+            <NavLink to='/' text="About"/>
+            <NavLink to='/projects' text="Projects"/>
+            <NavLink to='/contacts' text="Contact"/>
         </ul>
        
     </nav>
   );
 };
 
+const NavLink = ({ to, text }) => {
+    const { pathname } = useLocation();
+  
+    return (
+      <li className="relative px-10">
+        <Link to={to} className="text-white text-3xl hover:bg-[#0ef]">
+          {text}
+          <motion.div
+            className="h-1 bg-[#0ef] w-0 absolute bottom-[-80%] left-1/2 transform -translate-x-1/2 transition-all duration-750"
+            transition={{ duration: 0.75 }}
+            initial={{ width: "0%" }}
+            animate={{ width: pathname === to ? "50%" : "0%" }}
+          ></motion.div>
+        </Link>
+      </li>
+    );
+  };
+  
 
 export default NavBar;

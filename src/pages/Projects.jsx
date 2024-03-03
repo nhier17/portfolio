@@ -27,7 +27,7 @@ const Projects = () => {
      className="min-h-svh overflow-hidden grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-10 p-10 md:p-2 mt-36">
 
      <motion.div className="py-10">
-        <motion.h2 variants={fade} className="py-4 text-2xl">Shoppers Paradise</motion.h2>
+        <motion.h2 variants={fade} className="py-4 text-4xl">Shoppers Paradise</motion.h2>
         <motion.div variants={lineAnim} className="h-1 bg-[#0ef] my-4"></motion.div>
         <Link to="/projects/shoppers-paradise">
         <motion.img
@@ -40,7 +40,7 @@ const Projects = () => {
         </motion.div>   
 
         <div className="py-10">
-        <motion.h2 variants={fade} className="py-4 text-2xl">Netflix Clone</motion.h2>
+        <motion.h2 variants={fade} className="py-4 text-4xl">Netflix Clone</motion.h2>
         <motion.div variants={lineAnim} className="h-1 bg-[#0ef] my-4"></motion.div>
         <Link to="/projects/netflix-clone">
         <motion.img 
@@ -53,7 +53,7 @@ const Projects = () => {
         </div>  
 
         <div className="py-10">
-        <motion.h2 variants={fade} className="py-4 text-2xl">Delicious Delicacies</motion.h2>
+        <motion.h2 variants={fade} className="py-4 text-4xl">Delicious Delicacies</motion.h2>
         <motion.div variants={lineAnim} className="h-1 bg-[#0ef] my-4"></motion.div>
         <Link to="/projects/delicious-delicacies">
         <motion.img 
@@ -66,7 +66,7 @@ const Projects = () => {
         </div>  
 
         <div className="py-10">
-        <motion.h2 variants={fade} className="py-4 text-2xl">Games Tracker</motion.h2>
+        <motion.h2 variants={fade} className="py-4 text-4xl">Games Tracker</motion.h2>
         <motion.div variants={lineAnim} className="h-1 bg-[#0ef] my-4"></motion.div>
         <Link to="/projects/games-tracker">
         <motion.img 
@@ -79,7 +79,7 @@ const Projects = () => {
         </div>  
 
         <div className="py-10">
-        <motion.h2 variants={fade} className="py-4 text-2xl">Music App</motion.h2>
+        <motion.h2 variants={fade} className="py-4 text-4xl">Music App</motion.h2>
         <motion.div variants={lineAnim} className="h-1 bg-[#0ef] my-4"></motion.div>
         <Link to="/projects/music-app">
         <motion.img
@@ -92,7 +92,7 @@ const Projects = () => {
         </div> 
 
         <div className="py-10">
-        <motion.h2 variants={fade} className="py-4 text-2xl">Rick & Morty</motion.h2>
+        <motion.h2 variants={fade} className="py-4 text-4xl">Rick & Morty</motion.h2>
         <motion.div variants={lineAnim} className="h-1 bg-[#0ef] my-4"></motion.div>
         <Link to="/projects/rick-morty">
         <motion.img
@@ -105,7 +105,7 @@ const Projects = () => {
         </div>   
 
         <div className="py-10">
-        <motion.h2 variants={fade} className="py-4 text-2xl">Shopping Cart</motion.h2>
+        <motion.h2 variants={fade} className="py-4 text-4xl">Shopping Cart</motion.h2>
         <motion.div variants={lineAnim} className="h-1 bg-[#0ef] my-4"></motion.div>
         <Link to="/projects/shopping-cart">
         <motion.img
