@@ -4,7 +4,7 @@ import delicious2 from "./images/delicious2.png"
 import games from "./images/games.png"
 import games2 from "./images/games2.png"
 import movies from "./images/movies.png"
-import movies2 from "./images/movies2.png"
+import mt2 from "./images/mt2.png"
 import shoppers from "./images/shoppers.png"
 import cart from "./images/cart.png"
 import trayls from "./images/trayls.png"
@@ -77,7 +77,7 @@ const ProjectState = [
     {
       title: "Netflix Clone",
       mainImg: movies,
-      secondaryImg: movies,
+      secondaryImg: mt2,
       description: "A ReactJS application that grants users access to a curated collection of movies and TV shows fetched from TheMovieDB API. Immerse yourself in a Netflix-like experience with this inspired project.",
       url: "/projects/netflix-clone",
       links: [
