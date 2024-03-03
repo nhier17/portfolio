@@ -9,6 +9,8 @@ import shoppers from "./images/shoppers.png"
 import cart from "./images/cart.png"
 import music from "./images/music.png"
 import music2 from "./images/music2.png"
+import rick from "./images/rick.png"
+import morty from "./images/morty.png"
 
 const ProjectState = [
     {
@@ -137,6 +139,27 @@ const ProjectState = [
         },
       ],
     },
+    {
+        title: "Rick & Morty",
+        mainImg: rick,
+        secondaryImg: morty,
+        description: "A Next.js App that leverages the Rick & Morty API to provide users with a comprehensive exploration of the locations and characters within the Rick & Morty universe.",
+        url: "/projects/rick-morty",
+        links: [
+          {
+            title: "Github",
+            url: "https://github.com/nhier17/rick-morty",
+          },
+          {
+            title: "Deployed",
+            url: "https://ricky-morty-blond.vercel.app/",
+          },
+          {
+            title: "Live",
+            url: "https://joshua-jordan.github.io/delicious-delicacies/",
+          },
+        ],
+      },
   ];
   
 
