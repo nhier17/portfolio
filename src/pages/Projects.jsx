@@ -27,7 +27,7 @@ const Projects = () => {
 
      <motion.div className="py-10">
         <motion.h2 variants={fade} className="py-4 text-2xl">Shoppers Paradise</motion.h2>
-        <motion.div variants={lineAnim} className="h-0.5 bg-blue-500 my-4"></motion.div>
+        <motion.div variants={lineAnim} className="h-1 bg-[#0ef] my-4"></motion.div>
         <Link to="/projects/shoppers-paradise">
         <motion.img
         variants={photoAnim}
@@ -40,7 +40,7 @@ const Projects = () => {
 
         <div className="py-10">
         <motion.h2 variants={fade} className="py-4 text-2xl">Netflix Clone</motion.h2>
-        <motion.div variants={lineAnim} className="h-0.5 bg-blue-500 my-4"></motion.div>
+        <motion.div variants={lineAnim} className="h-1 bg-[#0ef] my-4"></motion.div>
         <Link to="/projects/netflix-clone">
         <motion.img 
         variants={photoAnim}
@@ -53,7 +53,7 @@ const Projects = () => {
 
         <div className="py-10">
         <motion.h2 variants={fade} className="py-4 text-2xl">Delicious Delicacies</motion.h2>
-        <motion.div variants={lineAnim} className="h-0.5 bg-blue-500 my-4"></motion.div>
+        <motion.div variants={lineAnim} className="h-1 bg-[#0ef] my-4"></motion.div>
         <Link to="/projects/delicious-delicacies">
         <motion.img 
         variants={photoAnim}
@@ -66,7 +66,7 @@ const Projects = () => {
 
         <div className="py-10">
         <motion.h2 variants={fade} className="py-4 text-2xl">Games Tracker</motion.h2>
-        <motion.div variants={lineAnim} className="h-0.5 bg-blue-500 my-4"></motion.div>
+        <motion.div variants={lineAnim} className="h-1 bg-[#0ef] my-4"></motion.div>
         <Link to="/projects/games-tracker">
         <motion.img 
         variants={photoAnim}
@@ -79,7 +79,7 @@ const Projects = () => {
 
         <div className="py-10">
         <motion.h2 variants={fade} className="py-4 text-2xl">Happy Trayls</motion.h2>
-        <motion.div variants={lineAnim} className="h-0.5 bg-blue-500 my-4"></motion.div>
+        <motion.div variants={lineAnim} className="h-1 bg-[#0ef] my-4"></motion.div>
         <Link to="/projects/happy-trayls">
         <motion.img
         variants={photoAnim}
@@ -92,7 +92,7 @@ const Projects = () => {
 
         <div className="py-10">
         <motion.h2 variants={fade} className="py-4 text-2xl">Shopping Cart</motion.h2>
-        <motion.div variants={lineAnim} className="h-0.5 bg-blue-500 my-4"></motion.div>
+        <motion.div variants={lineAnim} className="h-1 bg-[#0ef] my-4"></motion.div>
         <Link to="/projects/shopping-cart">
         <motion.img
         variants={photoAnim}

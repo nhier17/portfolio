@@ -14,7 +14,7 @@ const NavBar = () => {
         <li className="relative px-10">   
         <Link to="/" className="text-white text-3xl">
         About  
-        <motion.div className="h-0.5 bg-blue-500 w-0 absolute bottom-[-80%] left-60 lg:left-0 transition-all duration-750"
+        <motion.div className="h-0.5 bg-[#0ef] w-0 absolute bottom-[-80%] left-60 lg:left-0 transition-all duration-750"
          transition={{ duration: 0.75 }}
          initial={{ width: "0%" }}
          animate={{ width: pathname === "/" ? "50%" : "0%" }}
@@ -24,7 +24,7 @@ const NavBar = () => {
         <li className="relative px-10">   
         <Link to="/projects" className="text-white text-3xl">
         Projects  
-        <motion.div className="h-0.5 bg-blue-500 w-0 absolute bottom-[-80%] left-60 lg:left-0 transition-all duration-750"
+        <motion.div className="h-0.5 bg-[#0ef] w-0 absolute bottom-[-80%] left-60 lg:left-0 transition-all duration-750"
          transition={{ duration: 0.75 }}
          initial={{ width: "0%" }}
          animate={{ width: pathname === "/projects" ? "50%" : "0%" }}
@@ -34,7 +34,7 @@ const NavBar = () => {
         <li className="relative px-10">   
         <Link to="/contacts" className="text-white text-3xl">
         Contacts 
-        <motion.div className="h-0.5 bg-blue-500 w-0 absolute bottom-[-80%] left-60 lg:left-0 transition-all duration-750"
+        <motion.div className="h-0.5 bg-[#0ef] w-0 absolute bottom-[-80%] left-60 lg:left-0 transition-all duration-750"
          transition={{ duration: 0.75 }}
          initial={{ width: "0%" }}
          animate={{ width: pathname === "/contacts" ? "50%" : "0%" }}

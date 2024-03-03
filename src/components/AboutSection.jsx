@@ -24,7 +24,7 @@ const AboutSection = () => {
             <motion.h2 
             variants={titleAnim}
             className="text-3xl lg:text-4xl xl:text-5xl font-bold">
-              And  I am a <span className="text-blue-500">Software</span>
+              And  I am a <span className="text-[#0ef]">Software</span>
             </motion.h2>
           </motion.div>
           <motion.div className="text-3xl lg:text-4xl xl:text-5xl font-bold">
@@ -41,12 +41,12 @@ const AboutSection = () => {
            I am open to learning and staying updated on the latest industry trends which will allow me to incorporate cutting edge solutions into my work.
             Looking forward to contribute to innovative projects and collaborate with like-minded individuals.
         </motion.p>
-        <motion.div className="flex items-center text-5xl text-blue-500 gap-4 cursor-pointer">
+        <motion.div className="flex items-center text-5xl text-[#0ef] gap-4 cursor-pointer">
           <FaInstagram/>
           <a href={linkedinUrl}><FaLinkedin/></a>
           <a href={githubUrl}><FaGithub/></a>
           </motion.div>
-        <a className="inline-block p-4 lg:p-7 bg-blue-500 ring-2 ring-blue-500 rounded-xl mt-4 text-xl font-bold" href={githubUrl}>Download CV</a>
+        <a className="inline-block p-4 lg:p-7 bg-[#0ef] ring-2 ring-[#0ef] rounded-xl mt-4 text-xl font-bold" href={githubUrl}>Download CV</a>
       </motion.div>
       <motion.div>
         <motion.img 

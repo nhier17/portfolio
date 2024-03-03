@@ -29,15 +29,17 @@ const ProjectDetails = () => {
         <div className="pt-20 relative">
             <h2 className="absolute top-10 left-1/2 transform -translate-x-1/2 -translate-y-10 text-4xl">{project.title}</h2>
             <img 
-            className="w-full h-full object-cover"
+            className="w-3/4 h-full object-cover mr-40 mx-40"
             src={project.mainImg} alt="shoppers" />
         </div>
-
-        <div className="flex items-center justify-around my-20 mx-40">
-            {project.links.map((link) => (
-                <div>
-                <h3>{link.title}</h3>
-                <a href={link.url} target="_blank" key={link.url}>
+        <div className="my-20 mx-40 items-center ">
+        <h3 className="text-3xl ">Links</h3>
+        <div className="w-full h-1 bg-blue-500 m-4 md:w-full md:h-full"></div>
+         {project.links.map((link) => (
+                <div className="flex items-center justify-center my-20 mx-40">
+                <a
+                className="font-semibold text-xl no-underline p-4 rounded-md ring-2 transition-transform ease-in-out duration-300 hover:transform scale-105 hover:ring-blue-500"
+                 href={link.url} target="_blank" rel="noreferrer" key={link.url}>
                     {link.title}
                 </a>
                 </div>
@@ -45,12 +47,12 @@ const ProjectDetails = () => {
         </div>
         <div className="my-20 mx-40 items-center">
             <h3 className="text-3xl">Project Description</h3>
-            <div className="w-full h-1 bg-blue-500 m-4"></div>
+            <div className="w-full h-1 bg-[#0ef] m-4"></div>
             <p className="p-4 text-2xl">{project.description}</p>
         </div>
         <div className="min-h-[50vh]">
             <img 
-            className="w-full h-full object-cover"
+            className="w-3/4 h-[60vh] object-cover my-20 mx-40"
             src={project.secondaryImg} alt={project.title} />
         </div>
     </motion.div>
