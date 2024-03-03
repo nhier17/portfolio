@@ -25,9 +25,10 @@ body {
   background: var(--bg-color);
   color: var(--text-color);
   font-family: 'EB Garamond',serif;
-  p {
-    font-family: 'Roboto',sans-serif;
-  }
+ 
+}
+p {
+  font-family: 'Roboto',sans-serif;
 }
 
 code {

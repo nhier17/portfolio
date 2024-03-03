@@ -9,7 +9,7 @@ const ProjectDetails = () => {
     const location = useLocation()
     const { pathname } = location;
 
-    const [projects, setProjects] = useState(ProjectState)
+    const [projects] = useState(ProjectState)
     const [project, setProject] = useState(null)
 
     useEffect(() => {

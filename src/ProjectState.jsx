@@ -1,4 +1,4 @@
-import React from 'react'
+
 import delicious from "./images/delicious.png"
 import delicious2 from "./images/delicious2.png"
 import games from "./images/games.png"
