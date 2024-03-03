@@ -18,7 +18,7 @@ const AboutSection = () => {
              className="text-[3.2rem]  font-bold font-Roboto">Hello, It's me</motion.h2>
             <h1 
             variants={titleAnim}
-            className="text-[5.6rem] lg:text-5xl xl:text-6xl font-bold">Abraham Nhier</h1>
+            className="text-[5.6rem] lg:text-[5.6rem] xl:text-[5.6rem] font-bold">Abraham Nhier</h1>
           </motion.div>
           <motion.div className="overflow-hidden">
             <motion.h2 

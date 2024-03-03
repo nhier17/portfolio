@@ -7,6 +7,7 @@ import mt from "../images/mt.jpeg"
 import sc from "../images/sc.jpeg"
 import st from "../images/st.jpeg"
 import gm from "../images/gm.jpeg"
+import ma from "../images/ma.jpeg"
 //animations
 import { motion } from "framer-motion";
 import {
@@ -78,15 +79,15 @@ const Projects = () => {
         </div>  
 
         <div className="py-10">
-        <motion.h2 variants={fade} className="py-4 text-2xl">Happy Trayls</motion.h2>
+        <motion.h2 variants={fade} className="py-4 text-2xl">Music App</motion.h2>
         <motion.div variants={lineAnim} className="h-1 bg-[#0ef] my-4"></motion.div>
-        <Link to="/projects/happy-trayls">
+        <Link to="/projects/music-app">
         <motion.img
         variants={photoAnim}
           className="object-cover rounded-md"
           width="70%"
           height="10%"
-         src={h} alt="hiker" />
+         src={ma} alt="hiker" />
         </Link>
         </div>  
 

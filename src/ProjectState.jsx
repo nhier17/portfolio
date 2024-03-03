@@ -7,8 +7,8 @@ import movies from "./images/movies.png"
 import mt2 from "./images/mt2.png"
 import shoppers from "./images/shoppers.png"
 import cart from "./images/cart.png"
-import trayls from "./images/trayls.png"
-import trayls2 from "./images/trayls2.png"
+import music from "./images/music.png"
+import music2 from "./images/music2.png"
 
 const ProjectState = [
     {
@@ -96,19 +96,19 @@ const ProjectState = [
       ],
     },
     {
-      title: "Happy Trayls",
-      mainImg: trayls,
-      secondaryImg: trayls,
-      description: "Happy trails is a captivating landing web page designed for hiking enthusiasts and nature lovers. Explore our hiking adventures and gain insights into various hiking destinations with a user-friendly interface.",
-      url: "/projects/happy-trayls",
+      title: "Music App",
+      mainImg: music,
+      secondaryImg: music2,
+      description: "Based on the name its a music player that lets you listen to soothing jazz music while coding.",
+      url: "/projects/music-app",
       links: [
         {
           title: "Github",
-          url: "https://github.com/nhier17/happy-trails",
+          url: "https://github.com/nhier17/music-app",
         },
         {
           title: "Deployed",
-          url: "https://happy-trayls.netlify.app/",
+          url: "https://music-app17.netlify.app/",
         },
         {
           title: "Live",

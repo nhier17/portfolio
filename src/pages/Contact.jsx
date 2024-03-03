@@ -14,7 +14,6 @@ exit="exit"
 variants={pageAnimation} 
 initial="hidden" 
 animate="show"
-style={{background: "white"}}
 >
 <motion.h2 variants={titleAnim}>Get in touch</motion.h2> 
   <motion.div>
@@ -33,7 +32,7 @@ style={{background: "white"}}
           <Vcard>
             <div className="icon">
         <FaLinkedin/>
-<h2>traylhikes.</h2>
+<a href="https://www.linkedin.com/in/nhier" target="_blank" rel="noreferrer">Abraham Nhier</a>
 </div>
 </Vcard>
 </Container>
@@ -63,11 +62,13 @@ const ContactStyle = styled(motion.div)`
     h2 {
     font-size: 3rem;
     margin-bottom: 4rem;
-    color: black;
+    font-weight: bold;
+    
   }
-  background-image: url(${code})
+  background-image: url(${code});
   background-size: cover;
   background-repeat: no-repeat;
+  background-position:center;
 
   @media (max-width:768px){
     padding: 2rem;
@@ -77,6 +78,7 @@ const ContactStyle = styled(motion.div)`
 const Social = styled(motion.div)`
   display: flex;
   align-items: center;
+  gap: 2rem;
   h2 {
     font-size: 2rem;
     margin: 2rem;
@@ -89,6 +91,7 @@ flex-wrap: wrap;
 svg{
   font-size: 3rem;
   color: #0ef;
+  font-weight: bold;
 }
 `
 const Vcard = styled.div`
@@ -96,11 +99,19 @@ const Vcard = styled.div`
   .icon {
     display: flex;
     align-items: center;
+    gap: 2rem;
     h2 {
       margin-left: 0.1rem;
-      background: white;
+      background: #0ef;
       color: black;
       padding: 0.1rem;
+    }
+    a {
+        text-decoration: none;
+        color: black;
+        font-size: 2rem;
+        background-color: #0ef;
+        font-weight: bold;
     }
   }
 `;
