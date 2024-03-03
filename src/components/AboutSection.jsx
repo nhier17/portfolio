@@ -9,7 +9,7 @@ const AboutSection = () => {
   const linkedinUrl = "https://www.linkedin.com/in/nhier"
   const githubUrl ="https://github.com/nhier17"
   return (
-    <motion.div className="min-h-screen flex items-center justify-between py-20 px-40">
+    <motion.div className="min-h-screen md:flex items-center justify-between py-20 px-40">
       <motion.div className="flex-1 pr-20 z-[2]">
         <motion.div >
           <motion.div className="overflow-hidden">
@@ -18,7 +18,7 @@ const AboutSection = () => {
              className="text-[3.2rem]  font-bold font-Roboto">Hello, It's me</motion.h2>
             <h1 
             variants={titleAnim}
-            className="text-[5.6rem] lg:text-5xl xl:text-6xl font-bold">Abraham</h1>
+            className="text-[5.6rem] lg:text-5xl xl:text-6xl font-bold">Abraham Nhier</h1>
           </motion.div>
           <motion.div className="overflow-hidden">
             <motion.h2 
@@ -46,7 +46,7 @@ const AboutSection = () => {
           <a href={linkedinUrl}><FaLinkedin/></a>
           <a href={githubUrl}><FaGithub/></a>
           </motion.div>
-        <a className="inline-block p-4 lg:p-7 bg-[#0ef] ring-2 ring-[#0ef] rounded-xl mt-4 text-xl font-bold" href={githubUrl}>Download CV</a>
+        <a className="inline-block p-4 lg:p-7 bg-[#0ef] ring-2 ring-[#0ef] rounded-xl mt-4 text-xl font-bold mt-5" href={githubUrl}>Download CV</a>
       </motion.div>
       <motion.div className="flex-1 overflow-hidden z-[2]">
         <motion.img 

@@ -2,6 +2,7 @@ import React from 'react'
 import AboutSection from "../components/AboutSection"
 import { motion } from "framer-motion";
 import { pageAnimation } from "../animations";
+import ScrollTop from "../components/ScrollTop";
 
 const About = () => {
   return (
@@ -12,7 +13,7 @@ const About = () => {
     animate="show"
     >
         <AboutSection/>
-        
+        <ScrollTop/>
     </motion.div>
   )
 }
