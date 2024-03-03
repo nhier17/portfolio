@@ -10,8 +10,6 @@ import gm from "../images/gm.jpeg"
 //animations
 import { motion } from "framer-motion";
 import {
-  sliderContainer,
-  slider,
   pageAnimation,
   fade,
   photoAnim,
