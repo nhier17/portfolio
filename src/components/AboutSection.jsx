@@ -46,7 +46,7 @@ const AboutSection = () => {
           <a href={linkedinUrl}><FaLinkedin/></a>
           <a href={githubUrl}><FaGithub/></a>
           </motion.div>
-        <a className="inline-block p-4 lg:p-7 bg-[#0ef] ring-2 ring-[#0ef] rounded-xl mt-4 text-xl font-bold mt-5" href={githubUrl}>Download CV</a>
+        <a className="inline-block p-4 px-8 lg:p-7 bg-[#0ef] shadow-sm  rounded-xl text-xl font-bold mt-5 transition-none duration-75" href={githubUrl}>Download CV</a>
       </motion.div>
       <motion.div className="flex-1 overflow-hidden z-[2]">
         <motion.img 
