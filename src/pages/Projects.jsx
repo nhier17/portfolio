@@ -2,7 +2,6 @@ import React from 'react'
 import { Link } from "react-router-dom"
 //images
 import dl from "../images/dl.jpeg"
-import h from "../images/h.JPG"
 import mt from "../images/mt.jpeg"
 import sc from "../images/sc.jpeg"
 import st from "../images/st.jpeg"
