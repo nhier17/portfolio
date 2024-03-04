@@ -8,6 +8,7 @@ import { titleAnim, fade, photoAnim } from "../animations";
 const AboutSection = () => {
   const linkedinUrl = "https://www.linkedin.com/in/nhier"
   const githubUrl ="https://github.com/nhier17"
+  
   return (
     <motion.div className="md:min-h-screen md:flex items-center justify-between py-10 md:py-10 px-5 md:px-20 mt-32">
       <motion.div className="flex-1 pr-5 md:pr:20 z-[2]">
@@ -42,10 +43,10 @@ Distinguished as a forward-thinking innovator and solution finder, I successfull
         </motion.p>
         <motion.div className="flex items-center text-4xl md:text-5xl text-[#0ef] gap-4 cursor-pointer">
           <FaInstagram/>
-          <a href={linkedinUrl}><FaLinkedin/></a>
-          <a href={githubUrl}><FaGithub/></a>
+          <a href={linkedinUrl} target="_blank" rel="noreferrer"><FaLinkedin/></a>
+          <a href={githubUrl} target="_blank" rel="noreferrer"><FaGithub/></a>
           </motion.div>
-        <a className="inline-block p-3 md:p-4 px-8 lg:p-5 bg-[#0ef] shadow-sm  rounded-xl text-lg md:text-xl font-bold mt-5 transition-all duration-75" href={githubUrl}>Download CV</a>
+        <a className="inline-block p-3 md:p-4 px-8 lg:p-5 bg-[#0ef] shadow-sm  rounded-xl text-lg md:text-xl font-bold mt-5 transition-all duration-75" href={linkedinUrl} target="_blank" rel="noreferrer">Download CV</a>
       </motion.div>
       <motion.div className="flex-1 overflow-hidden z-[2]">
         <motion.img 
