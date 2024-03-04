@@ -9,7 +9,7 @@ const Faqs = () => {
         <AnimatePresence>
         <Toggle title="What is Abraham's TechStack and SkillSet?">
           <div className="py-[2rem]">
-          <p className="py-[1rem] text-2xl">
+          <div className="py-[1rem] text-2xl">
             <ul className="p-[2rem]">
              <li> Software immersive development using React.js, JavaScript, Next.js, Node.js, HTML and CSS.</li>  
              <ul>
@@ -28,7 +28,7 @@ const Faqs = () => {
                         authorization</li>
                 </ul> 
             </ul>
-          </p>
+          </div>
           </div>
         </Toggle>
         </AnimatePresence>

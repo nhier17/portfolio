@@ -33,13 +33,13 @@ const ProjectDetails = () => {
             src={project.mainImg} alt="shoppers" />
         </div>
 
-        <div className="my-20 mx-20 items-center">
+        <div className="my-20 mx-10 md:mx-20 items-center">
             <h3 className="text-3xl">Links</h3>
             <div className="w-full h-1 bg-[#0ef] m-4"></div>
         </div>
         <div className="flex  items-center ">
             {project.links.map((link) => (
-                <div className="items-center justify-center my-20 mx-20">
+                <div className="items-center justify-center my-20 mx-20" key={link.url}>
                 <a
                 className="font-semibold text-3xl no-underline p-4 rounded-md ring-2 transition-transform ease-in-out duration-300 hover:transform scale-105 hover:ring-[#0ef]"
                  href={link.url} target="_blank" rel="noreferrer" key={link.url}>
@@ -55,7 +55,7 @@ const ProjectDetails = () => {
         </div>
         <div className="min-h-[50vh]">
             <img 
-            className="w-3/4 h-full object-cover my-20 mx-40"
+            className="w-3/4 h-full object-cover my-20 mx-20"
             src={project.secondaryImg} alt={project.title} />
         </div>
     </motion.div>

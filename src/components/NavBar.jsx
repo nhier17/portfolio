@@ -25,7 +25,7 @@ const NavLink = ({ to, text }) => {
   
     return (
       <li className="relative px-10">
-        <Link to={to} className="text-white text-3xl hover:bg-[#0ef]">
+        <Link to={to} className="text-white text-3xl">
           {text}
           <motion.div
             className="h-1 bg-[#0ef] w-0 absolute bottom-[-80%] left-1/2 transform -translate-x-1/2 transition-all duration-750"

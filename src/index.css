@@ -21,11 +21,20 @@ html {
   font-size: 62.5%;
   overflow-x: hidden;
 }
+html::-webkit-scrollbar{
+  width: 0.5rem;
+}
+html::-webkit-slider-thumb{
+  background-color: grey;
+}
+html::-webkit-scrollbar-track{
+  background: grey;
+}
 body {
   background: var(--bg-color);
   color: var(--text-color);
   font-family: 'EB Garamond',serif;
- 
+ user-select: none;
 }
 p {
   font-family: 'Roboto',sans-serif;
