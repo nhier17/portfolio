@@ -37,9 +37,9 @@ const ProjectDetails = () => {
             <h3 className="text-3xl">Links</h3>
             <div className="w-full h-1 bg-[#0ef] m-4"></div>
         </div>
-        <div className="flex  items-center ">
+        <div className="flex  items-center justify-center">
             {project.links.map((link) => (
-                <div className="items-center justify-center my-20 mx-20" key={link.url}>
+                <div className="my-20 mx-10" key={link.url}>
                 <a
                 className="font-semibold text-3xl no-underline p-4 rounded-md ring-2 transition-transform ease-in-out duration-300 hover:transform scale-105 hover:ring-[#0ef]"
                  href={link.url} target="_blank" rel="noreferrer" key={link.url}>
