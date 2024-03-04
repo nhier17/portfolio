@@ -6,6 +6,7 @@ import games2 from "./images/games2.png"
 import movies from "./images/movies.png"
 import mt2 from "./images/mt2.png"
 import shoppers from "./images/shoppers.png"
+import shoppers2 from "./images/st2.png"
 import cart from "./images/cart.png"
 import music from "./images/music.png"
 import music2 from "./images/music2.png"
@@ -51,14 +52,14 @@ const ProjectState = [
         },
         {
           title: "Live",
-          url: "https://joshua-jordan.github.io/delicious-delicacies/",
+          url: "https://github.io/delicious-delicacies/",
         },
       ],
     },
     {
       title: "Shoppers Paradise",
       mainImg: shoppers,
-      secondaryImg: games2,
+      secondaryImg: shoppers2,
       description: "Discover a world of endless shopping possibilities with Shoppers Paradise. Our free and open-source mobile app is your ultimate shopping companion, providing a seamless experience to explore and track your favorite products.",
       url: "/projects/shoppers-paradise",
       links: [
@@ -72,7 +73,7 @@ const ProjectState = [
         },
         {
           title: "Live",
-          url: "https://joshua-jordan.github.io/delicious-delicacies/",
+          url: "https://github.io/delicious-delicacies/",
         },
       ],
     },
@@ -93,7 +94,7 @@ const ProjectState = [
         },
         {
           title: "Live",
-          url: "https://joshua-jordan.github.io/delicious-delicacies/",
+          url: "https://github.io/delicious-delicacies/",
         },
       ],
     },
@@ -114,7 +115,7 @@ const ProjectState = [
         },
         {
           title: "Live",
-          url: "https://joshua-jordan.github.io/delicious-delicacies/",
+          url: "https://github.io/delicious-delicacies/",
         },
       ],
     },
@@ -135,7 +136,7 @@ const ProjectState = [
         },
         {
           title: "Live",
-          url: "https://joshua-jordan.github.io/delicious-delicacies/",
+          url: "https://github.io/delicious-delicacies/",
         },
       ],
     },
@@ -156,7 +157,7 @@ const ProjectState = [
           },
           {
             title: "Live",
-            url: "https://joshua-jordan.github.io/delicious-delicacies/",
+            url: "https://github.io/delicious-delicacies/",
           },
         ],
       },
