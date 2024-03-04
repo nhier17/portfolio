@@ -37,7 +37,7 @@ const ProjectDetails = () => {
             <h3 className="text-3xl">Links</h3>
             <div className="w-full h-1 bg-[#0ef] m-4"></div>
         </div>
-        <div className="flex  items-center justify-center">
+        <div className="md:flex  items-center justify-center m-auto">
             {project.links.map((link) => (
                 <div className="my-20 mx-10" key={link.url}>
                 <a
