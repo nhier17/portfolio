@@ -2,7 +2,7 @@
 
 ## Project Description
 Hi, I am Abraham and this is my portfolio showcasing my skills and passion as a software developer.
-Made with React and tailwind css the web application provides a glimpse of qualities that define me as a software developer.
+Made with React and tailwind css, gain insight into my technical expertise among other attributes that define me as a developer.
 
 ## Contact Me
 
