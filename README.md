@@ -1,7 +1,8 @@
 # Project Name: My Portfolio
 
 ## Project Description
-
+Hi, I am Abraham and this is my portfolio showcasing my skills and passion as a software developer.
+Made with React and tailwind css the web application provides a glimpse of qualities that define me as a software developer.
 
 In the project directory, you can run:
 
