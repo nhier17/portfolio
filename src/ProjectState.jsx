@@ -12,6 +12,8 @@ import music from "./images/music.png"
 import music2 from "./images/music2.png"
 import rick from "./images/rick.png"
 import morty from "./images/morty.png"
+import task from "./images/tm.png"
+import task2 from "./images/tm2.png"
 
 const ProjectState = [
     {
@@ -158,6 +160,27 @@ const ProjectState = [
           {
             title: "Live",
             url: "https://github.io/delicious-delicacies/",
+          },
+        ],
+      },
+      {
+        title: "Task Manager",
+        mainImg: task2,
+        secondaryImg: task,
+        description: "Streamline your tasks and boost productivity with this Task Manager application. Stay organized, collaborate seamlessly, and take control of your workflow.",
+        url: "/projects/task-manager",
+        links: [
+          {
+            title: "Github",
+            url: "https://github.com/nhier17/Task-manager",
+          },
+          {
+            title: "Deployed",
+            url: "https://task-manager-87qf.onrender.com",
+          },
+          {
+            title: "Live",
+            url: "https://task-manager-87qf.onrender.com",
           },
         ],
       },

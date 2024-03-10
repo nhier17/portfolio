@@ -8,6 +8,7 @@ import st from "../images/st.jpeg"
 import gm from "../images/gm.jpeg"
 import ma from "../images/ma.jpeg"
 import rm from "../images/rm.jpeg"
+import tk from "../images/task.jpeg"
 //animations
 import { motion } from "framer-motion";
 import {
@@ -90,6 +91,19 @@ const Projects = () => {
          src={ma} alt="hiker" />
         </Link>
         </div> 
+
+        <div className="py-10">
+        <motion.h2 variants={fade} className="py-4 text-4xl">Task Manager</motion.h2>
+        <motion.div variants={lineAnim} className="h-1 bg-[#0ef] my-4"></motion.div>
+        <Link to="/projects/task-manager">
+        <motion.img
+        variants={photoAnim}
+          className="object-cover rounded-md"
+          width="70%"
+          height="10%"
+         src={tk} alt="rick" />
+        </Link>
+        </div>
 
         <div className="py-10">
         <motion.h2 variants={fade} className="py-4 text-4xl">Rick & Morty</motion.h2>
