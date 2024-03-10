@@ -75,7 +75,7 @@ const ProjectState = [
         },
         {
           title: "Live",
-          url: "https://github.io/delicious-delicacies/",
+          url: "https://shoppers-paradise.netlify.app/",
         },
       ],
     },
@@ -96,7 +96,7 @@ const ProjectState = [
         },
         {
           title: "Live",
-          url: "https://github.io/delicious-delicacies/",
+          url: "https://netflixstreams-clone.netlify.app/",
         },
       ],
     },
@@ -117,7 +117,7 @@ const ProjectState = [
         },
         {
           title: "Live",
-          url: "https://github.io/delicious-delicacies/",
+          url: "https://music-app17.netlify.app/",
         },
       ],
     },
@@ -138,7 +138,7 @@ const ProjectState = [
         },
         {
           title: "Live",
-          url: "https://github.io/delicious-delicacies/",
+          url: "https://shopping-cart-17.netlify.app/",
         },
       ],
     },
@@ -159,7 +159,7 @@ const ProjectState = [
           },
           {
             title: "Live",
-            url: "https://github.io/delicious-delicacies/",
+            url: "https://ricky-morty-blond.vercel.app/",
           },
         ],
       },
