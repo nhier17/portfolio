@@ -4,7 +4,7 @@ import { Link } from "react-router-dom"
 import dl from "../images/dl.jpeg"
 import mt from "../images/mt.jpeg"
 import sc from "../images/sc.jpeg"
-import st from "../images/st.jpeg"
+import st from "../images/st.jpg"
 import gm from "../images/gm.jpeg"
 import ma from "../images/ma.jpeg"
 import rm from "../images/rm.jpeg"
@@ -33,10 +33,8 @@ const Projects = () => {
         <Link to="/projects/shoppers-paradise">
         <motion.img
         variants={photoAnim}
-          className="object-cover rounded-md"
-          width="300"
-          height="300"
-         src={st} alt="shopping" />
+          className="object-cover rounded-md w-full h-auto"
+          src={st} alt="shopping" />
         </Link>
         </motion.div>   
 

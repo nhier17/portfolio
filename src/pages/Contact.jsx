@@ -22,7 +22,7 @@ animate="show"
           <Vcard>
             <div className="icon">
         <IoCall/>
-<h2>+254795642609.</h2>
+<h2>+254716903151.</h2>
 </div>
 </Vcard>
 </Container>
