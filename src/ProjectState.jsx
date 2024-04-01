@@ -14,6 +14,8 @@ import rick from "./images/rick.png"
 import morty from "./images/morty.png"
 import task from "./images/tm.png"
 import task2 from "./images/tm2.png"
+import share from "./images/shareme.png"
+import share2 from "./images/shareme1.png"
 
 const ProjectState = [
     {
@@ -139,6 +141,27 @@ const ProjectState = [
         {
           title: "Live",
           url: "https://shopping-cart-17.netlify.app/",
+        },
+      ],
+    },
+    {
+      title: "Share Me",
+      mainImg: share,
+      secondaryImg: share2,
+      description: "Share Me is a full-stack social media application built using Sanity and React, offering users a platform to share images and engage with other users through comments. With Share Me, users can create posts, upload images, and interact with content from other users through a seamless and intuitive interface. Whether you're sharing your latest adventures, expressing your creativity, or connecting with friends and like-minded individuals, Share Me provides a dynamic and vibrant space for social interaction. Join the community today and start sharing your world with Share Me!",
+      url: "/projects/share-me",
+      links: [
+        {
+          title: "Github",
+          url: "https://github.com/nhier17/share-me",
+        },
+        {
+          title: "Deployed",
+          url: "https://share-me17.netlify.app/",
+        },
+        {
+          title: "Live",
+          url: "https://share-me17.netlify.app/",
         },
       ],
     },
