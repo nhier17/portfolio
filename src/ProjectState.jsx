@@ -99,11 +99,11 @@ const ProjectState = [
       },
       {
         title: "Deployed",
-        url: "https://netflixstreams-clone.netlify.app/",
+        url: "https://movies-streams.netlify.app/",
       },
       {
         title: "Live",
-        url: "https://netflixstreams-clone.netlify.app/",
+        url: "https://movies-streams.netlify.app/",
       },
     ],
   },
