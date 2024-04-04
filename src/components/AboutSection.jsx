@@ -34,7 +34,7 @@ const AboutSection = () => {
         </motion.div>
         <motion.p
         variants={fade}
-          className="text-[1.1rem] md:text-base py-20  lg:text-lg xl:text-xl">
+          className="text-[1.5rem] md:text-xl py-20  lg:text-lg xl:text-2xl">
   I am a highly motivated software developer driven by a fervent passion for coding and problem-solving.As a developer I have proficiently designed, developed , tested , and deployed user-friendly projects utilizing cutting-edge technologies such as Javascript, React.js, Next.js, HTML, and CSS. I possess expertise in creating and developing restful APIs with Node.js. I have successfully developed RESTful that handle data processing, authentication and seamless integration with front-end technologies.
 I have utilized Express.js to streamline the development process ensuring efficient and maintainable code.
 Additionally I incorporated database management systems like mongoDB, PostgreSQL for effective data storage and retrivial.

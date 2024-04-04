@@ -10,6 +10,7 @@ import ma from "../images/ma.jpeg"
 import rm from "../images/rm.jpeg"
 import tk from "../images/task.jpeg"
 import sm from "../images/sm.jpg"
+import pt from "../images/pt.png"
 //animations
 import { motion } from "framer-motion";
 import {
@@ -65,6 +66,17 @@ const Projects = () => {
         src={mt} alt="movies" />
         </Link>
         </div>  
+
+        <motion.div className="py-10">
+        <motion.h2 variants={fade} className="py-4 text-4xl">Post It</motion.h2>
+        <motion.div variants={lineAnim} className="h-1 bg-[#0ef] my-4"></motion.div>
+        <Link to="/projects/post-it">
+        <motion.img
+        variants={photoAnim}
+          className="object-cover rounded-md w-full h-auto"
+          src={pt} alt="posts" />
+        </Link>
+        </motion.div>  
 
         <div className="py-10">
         <motion.h2 variants={fade} className="py-4 text-4xl">Delicious Delicacies</motion.h2>
