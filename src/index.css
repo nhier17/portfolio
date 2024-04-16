@@ -54,6 +54,7 @@ p {
   margin-bottom: 3rem;
   margin-right: 3rem;
   border: .2rem solid #0ef;
+  overflow: hidden;
   border-radius: 1rem;
   transition: transform 450ms;
  }
