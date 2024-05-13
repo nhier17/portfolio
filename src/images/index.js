@@ -1,0 +1,32 @@
+export { default as delicious }from "./delicious.png";
+export { default as delicious2 }from "./delicious2.png";
+export { default as games } from "./games.png";
+export { default as games2 } from "./games2.png";
+export { default as movies } from "./movies.png";
+export { default as mt2 } from "./mt2.png";
+export { default as shoppers } from "./shopper.png";
+export { default as shoppers3 } from "./shopper3.png";
+export { default as cart } from "./cart.png";
+export { default as music } from "./music.png";
+export { default as music2 } from "./music2.png";
+export { default as rick } from "./rick.png";
+export { default as morty } from "./morty.png";
+export { default as task } from "./tm.png";
+export { default as task2 } from "./tm2.png";
+export { default as share } from "./shareme.png";
+export { default as share2 } from "./shareme1.png";
+export { default as post } from "./post.png";
+export { default as post2 } from "./post2.png";
+export { default as fitness } from "./myfitness.png";
+export { default as fitness2 } from "./myFitness1.png";
+export { default as fitness3 } from "./myfitness2.jpg";
+export { default as dl } from "./dl.jpeg"
+export { default as mt } from "./mt.jpeg"
+export { default as sc } from "./sc.jpeg"
+export { default as st } from "./st.jpg"
+export { default as gm } from "./gm.jpeg"
+export { default as ma } from "./ma.jpeg"
+export { default as rm } from "./rm.jpeg"
+export { default as tk } from "./task.jpeg"
+export { default as sm } from "./sm.jpg"
+export { default as pt } from "./pt.png"

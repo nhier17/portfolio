@@ -1,22 +1,26 @@
-import delicious from "./images/delicious.png";
-import delicious2 from "./images/delicious2.png";
-import games from "./images/games.png";
-import games2 from "./images/games2.png";
-import movies from "./images/movies.png";
-import mt2 from "./images/mt2.png";
-import shoppers from "./images/shopper.png";
-import shoppers3 from "./images/shopper3.png";
-import cart from "./images/cart.png";
-import music from "./images/music.png";
-import music2 from "./images/music2.png";
-import rick from "./images/rick.png";
-import morty from "./images/morty.png";
-import task from "./images/tm.png";
-import task2 from "./images/tm2.png";
-import share from "./images/shareme.png";
-import share2 from "./images/shareme1.png";
-import post from "./images/post.png";
-import post2 from "./images/post2.png";
+import { delicious, 
+ delicious2,
+ games,  
+ games2, 
+ movies, 
+ mt2, 
+ shoppers, 
+ shoppers3,
+ cart,
+ music,
+ music2,
+ rick,
+ morty, 
+ task, 
+ task2, 
+ share, 
+ share2, 
+ post, 
+ post2,
+ fitness,
+ fitness2
+ } from "./images";
+
 
 const ProjectState = [
   {
@@ -60,6 +64,27 @@ const ProjectState = [
       {
         title: "Live",
         url: "https://github.io/delicious-delicacies/",
+      },
+    ],
+  },
+  {
+    title: "My Fitness",
+    mainImg: fitness,
+    secondaryImg: fitness2,
+    description: "Welcome to My Fitness, your ultimate companion for achieving your health and fitness goals! Powered by the latest technologies and designed with user experience in mind, My Fitness offers a comprehensive platform to track your workouts, monitor your progress, and stay motivated on your fitness journey. Whether you're a beginner or a seasoned athlete, our app provides personalized workout plans tailored to your fitness level and goals. With intuitive features such as exercise logging, calorie tracking, and progress analytics, you'll have everything you need to optimize your training and transform your body. Join our community today and take the first step towards a healthier, stronger you!",
+    url: "/projects/my-fitness",
+    links: [
+      {
+        title: "Github",
+        url: "https://github.com/nhier17/my-fitness",
+      },
+      {
+        title: "Deployed",
+        url: "https://my-fitness17.netlify.app/",
+      },
+      {
+        title: "Live",
+        url: "https://my-fitness17.netlify.app/",
       },
     ],
   },

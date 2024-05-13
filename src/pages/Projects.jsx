@@ -1,16 +1,18 @@
 import React from 'react'
 import { Link } from "react-router-dom"
 //images
-import dl from "../images/dl.jpeg"
-import mt from "../images/mt.jpeg"
-import sc from "../images/sc.jpeg"
-import st from "../images/st.jpg"
-import gm from "../images/gm.jpeg"
-import ma from "../images/ma.jpeg"
-import rm from "../images/rm.jpeg"
-import tk from "../images/task.jpeg"
-import sm from "../images/sm.jpg"
-import pt from "../images/pt.png"
+import { dl,
+      mt, 
+      sc, 
+      st, 
+      gm, 
+      ma, 
+      rm, 
+      tk, 
+      sm, 
+      pt,
+      fitness3
+    }from "../images";
 //animations
 import { motion } from "framer-motion";
 import {
@@ -40,6 +42,18 @@ const Projects = () => {
         </Link>
         </motion.div>  
 
+        <div className="py-10">
+        <motion.h2 variants={fade} className="py-4 text-4xl">My Fitness</motion.h2>
+        <motion.div variants={lineAnim} className="h-1 bg-[#0ef] my-4"></motion.div>
+        <Link to="/projects/my-fitness">
+        <motion.img 
+        variants={photoAnim}
+          className="object-cover rounded-md"
+          width="365.55"
+          height="365.55"
+        src={fitness3} alt="fitness" />
+        </Link>
+        </div>
         
         <div className="py-10">
         <motion.h2 variants={fade} className="py-4 text-4xl">Share Me</motion.h2>
